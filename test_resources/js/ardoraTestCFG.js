@@ -23,7 +23,7 @@ var fEnun="Verdana, Geneva, sans-serif";
 var timeOnMessage=2; messageOk="Bien hecho!"; messageTime=""; messageError="Vuelve a intentarlo"; messageErrorG="Vuelve a intentarlo"; messageAttempts=""; isShowMessage=false;
 var urlOk=""; urlTime=""; urlError=""; urlAttempts="";
 var goURLOk="_blank"; goURLTime="_blank"; goURLAttempts="_blank"; goURLError="_blank"; 
-borderOk="#008000"; borderTime="#FF0000";borderError="#FF0000"; borderAttempts="#FF0000";
+ borderTime="#FF0000";borderError="#FF0000"; borderAttempts="#FF0000";
 var wordsGame="dGVzdA"; wordsStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
 function giveZindex(typeElement){var valueZindex=0; capas=document.getElementsByTagName(typeElement);
 for (i=0;i<capas.length;i++){if (parseInt($(capas[i]).css("z-index"),10)>valueZindex){valueZindex=parseInt($(capas[i]).css("z-index"),10);}}return valueZindex;}
