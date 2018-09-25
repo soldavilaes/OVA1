@@ -1,13 +1,3 @@
-
-@charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
-@import url(https://fonts.googleapis.com/css?family=Sansita:400,400i,700,700i,800,800i,900,900i);
-
-/*-----------------------------
-* CONFIGURACIONES DE LA PAGINA
--------------------------------*/
-
 html, body {
   color: #555;
   font-family: 'Open Sans', sans-serif;
@@ -18,6 +8,9 @@ html, body {
   /*overflow-Y: auto;*/
   padding: 0;
   overflow-y:hidden;
+   background: radial-gradient(#FFF176, #F57F17);
+ -webkit-font-smoothing: antialiased;
+  
 }
 
 *, *::after,*::before {
@@ -38,6 +31,7 @@ p {
   margin: 10px;
   padding: 5px 5px 15px;
   text-align: justify;
+
 }
 
 img {
@@ -68,10 +62,6 @@ h4{
   font-style: italic;
 }
 
-/*--------------------------
-* CAPAS DEL CONTENIDO
----------------------------*/
-
 #cabecera {
   background: #5E6269;
   position: relative;
@@ -86,19 +76,17 @@ h4{
 
 #cabecera h2 {
   color: white;
-  padding: 10px 7px 7px;
-   font-family: 'Open Sans', sans-serif;
-   text-shadow: #000000 0.1em 0.0em 0.2em;
+    padding: 10px 7px 7px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: #000000 0.1em 0.0em 0.2em;
 }
 
-/*--------------------------
-* AUTOFORMA DEL TITULO
----------------------------*/
+/* Autoforma de Titulo*/
   #pointer {
     width: 180px;
     height: 25px;
     position: relative;
-    background: #f4d03f;
+    background: #fa8072;
     top: 5px;
     left: -4px;
   }
@@ -110,15 +98,11 @@ h4{
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 12.98px solid #f4d03f;
+    border-left: 12.98px solid #fa8072;
     border-top: 13px solid transparent;
     border-bottom: 12.98px solid transparent;
   }
-
-/*--------------------------
-* CAPA ESCENARIO
----------------------------*/
-
+/* Capa de Escenario */
 #escenario{
     display: block;
     position: relative;
@@ -131,6 +115,7 @@ h4{
     position: relative;
     top: 10px;
     left: -100px;
+
   }
 
   #escenario p{
@@ -138,6 +123,7 @@ h4{
     top: 21px;
     font-style: italic;
     color: #000000;
+    
   }
 
   #escenario img{
@@ -146,11 +132,7 @@ h4{
     top: 26px;
     left: 555px;
   }
-
-/*--------------------------
-* CAPA CONTENIDO GENERAL
----------------------------*/
-
+/*Capa de Contenido General*/
 #contenidoGeneral{
     width: 97.4%;
     height: 467px;
@@ -171,7 +153,7 @@ h4{
 }
 
 /*--------------------------
-* TEMA 3 - PESTAÑAS
+* TEMA 1 - PESTAÑAS
 ---------------------------*/
 
 #tabs {
@@ -328,7 +310,7 @@ h1.panelContent img {
   font-size: 20px;
   position: absolute;
   width: 635px;
-  top: 235px;
+  top: 230px;
   line-height: 1;
   left: 235px; 
 }
@@ -443,7 +425,7 @@ h1.panelContent img {
 }
 
 #imagen18 {
-  margin: 179px  -181px;
+  margin: 179px  -161px;
  animation: pulse 1.2s infinite cubic-bezier(0.99, 0.66, 1, 2);
 }
 #imagen21 {
@@ -474,6 +456,9 @@ h1.panelContent img {
     top: -320px;
     width: 430px;
     box-shadow: 0 0.25em 0.25em -0.125em rgba(0, 0, 0, 0.25), 0 0.5em 1.25em rgba(0, 0, 0, 0.5);
+    padding: 4px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width: 700px) {
@@ -496,6 +481,7 @@ h1.panelContent img {
 }
 
 /* PESTAÑA 2 */
+
 #tab2 {
   background: radial-gradient(#FFF176, #f7b983);
  
@@ -692,7 +678,7 @@ label:first-child {
 }
 
 .modal-wrap {
-  max-width: 850px;
+max-width: 850px;
   margin: -2px auto;
   transition: -webkit-transform 300ms ease-in-out;
   transition: transform 300ms ease-in-out;
@@ -921,8 +907,7 @@ label:first-child {
 
 
 /* SEGUNDO BOTON + */
-.
-, .buttonMas2 {
+.containerMass, .buttonMas2 {
   position: absolute;
 }
 
@@ -932,7 +917,7 @@ label:first-child {
 
 .containerMass {
   margin: auto;
-  top: 110px;
+  top: 160px;
   left: 70px;
   margin-left: 390px;
   width: 200px;
@@ -1299,6 +1284,7 @@ left: 170px;
     }
 }
 
+
 /* PESTAÑA 3*/
 .container {
  width: 800px;
@@ -1401,10 +1387,11 @@ details[open] {
 
 summary {
   outline: none;
-  font-size: 15px;
+  font-size: 16px;
   padding: 6px;
   transition: all 0.10s;
   font-weight: bold;
+  font-family:  'Open Sans', sans-serif;
 }
 
 summary:selection {
@@ -1437,7 +1424,12 @@ top: 150px;
 width: 45px;
 left: 850px;
 border-radius: 200px;
+font-weight: bold;
 
+}
+
+#click_button {
+  font-weight: bold;
 }
 
 button{
@@ -1499,6 +1491,426 @@ background-color: #f00;
 font-family: 'Open Sans', sans-serif;
 color: #FFF;
 font-size: 17px;
+}
+
+/* PESTAÑA 5 */
+
+.tabbed-content {
+  position: relative;
+  top: -383px;
+  overflow: hidden;
+  font-family: arial, 'sans-serif';
+  color: #525252;
+  left: 18px; 
+}
+
+.tabss {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  line-height: normal;
+}
+
+.tab-link {
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #fff;
+  display: block;
+  padding: 8px 14px;
+  margin-bottom: 10px;
+  background: #ff9933;
+  cursor: pointer;
+  border-radius: 10px 0 0 10px;
+  font-weight: bold;
+}
+.tab-link.current {
+  background: #ffcc00;
+  color: #5B5B5B;
+
+}
+
+.tabs-wrapper {
+  float: left;
+}
+
+.tab-content {
+  display: none;
+  border: 4px solid #ffcc00;
+  padding: 20px;
+  margin: 0;
+  float: left;
+  border-radius: 0 10px 10px 10px;
+  min-height: 231px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  -moz-box-sizing: border-box;
+}
+.tab-content.current {
+  display: inherit;
+  width: 760px;
+  height: 380px;
+  background: linear-gradient(to bottom, #ffffff 0%, #ffff99 100%);
+}
+.tab-content *:first-child {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 650px) {
+  .tabss {
+    width: 100%;
+    float: none;
+  }
+
+  .tab-link {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .tabs-wrapper {
+    width: 100%;
+  }
+
+  .tab-content {
+    min-height: 0;
+  }
+}
+
+#estructura {
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1;
+  color:#000000;
+  position: absolute;
+  left: -5px;
+  right: 300px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  height: 850px;
+  margin: 20px;
+
+}
+ #estructura span {
+  font-style: normal;
+  font-weight: bold;
+  margin: 45px 540px; 
+ }
+
+ #indicacion2 span {
+  font-style: italic;
+  margin: -70px -370px; 
+  color: #ff6600;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  left: 385px;
+ }
+
+#esEjemplo1 span {
+  font-style: normal;
+  margin: 8px 40px; 
+   text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1;
+  color:#000000;
+  position: absolute;
+  left: -45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 750px;
+ }
+
+
+#esEjemplo2 span {
+  font-style: normal;
+  margin: 8px 40px; 
+   text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1;
+  color:#000000;
+  position: absolute;
+  left: -59px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 720px;
+ }
+
+#secuencia span {
+  font-style: normal;
+  margin: 75px 40px; 
+  letter-spacing: 1px;
+  line-height: 1;
+  color:#000000;
+  position: absolute;
+  left: 75px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 410px;
+  text-align: center;
+
+ }
+
+ #secuencia1 span {
+  font-style: normal;
+  margin: 75px 40px; 
+  letter-spacing: 1px;
+  line-height: 1;
+  color:#000000;
+  position: absolute;
+  left: 75px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 410px;
+  border: 0.4rem solid #414141;
+  border-radius: 0.7rem;
+  text-align: center;
+  box-shadow: 1px 1px orange,
+    2px 2px gold,
+    3px 3px orange,
+    4px 4px gold,
+    5px 5px orange,
+    6px 6px gold,
+    7px 7px orange,
+    8px 8px gold;
+  font-weight: bold;
+  background: white;
+ }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  background: #C6FF91;
+  text-shadow: none;
+}
+
+::selection {
+  background: #C6FF91;
+  text-shadow: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+   top: 25px;
+}
+
+.wrapper {
+  margin: 25px auto 0 auto;
+}
+
+/* Note styles */
+.note-wrap {
+  width: 200px;
+  min-height: 210px;
+  padding: 5px;
+  margin: 25px 22px 43px 22px;
+  position: relative;
+  font-size: 19px;
+  display: inline-block;
+  font-family: Sansita;
+  color: #000000;
+  background: #F7E999;
+  line-height: 1;
+  text-align: center;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.note-wrap:before {
+  display: block;
+  content: "";
+  background: rgba(227, 200, 114, 0.4);
+  width: 130px;
+  height: 28px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px/18px 0;
+  position: absolute;
+  top: -13px;
+  left: 50px;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.note-wrap p {
+  line-height: 1.1;
+  text-align: center;
+}
+
+.note-wrap a {
+  color: #6b824f;
+  text-decoration: none;
+  font-size: 20px;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.note-wrap a:hover {
+  color: #D83A25;
+}
+
+.note-yellow {
+  background: #F7E999;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.note-blue {
+  background: #b9dcf4;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  margin-top: 40px;
+  font-style: normal;
+}
+
+.note-pink {
+  background: #FFBDA3;
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+  font-style: normal;
+}
+
+.note-green {
+  background: #CAF4B9;
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+}
+
+
+/* SUBTITULO */
+.titulo {
+  position: relative;
+  display: inline-flex;
+  text-decoration: none;
+  color: #000000;
+  background-color: #4ee898;
+  padding-left: 1rem;
+  overflow: hidden;
+  z-index: 1;
+  align-items: center;
+  box-shadow: 0px 3px 4px -4px rgba(0, 0, 0, 0.75);
+  margin: 170px -5px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  height: 28px;
+  border-radius: 5px 5px 5px 5px;
+}
+.titulo::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #4ee898;
+  z-index: -1;
+  transition: -webkit-transform 750ms;
+  transition: transform 750ms;
+  transition: transform 750ms, -webkit-transform 750ms;
+  
+}
+
+a.titulo:link {
+text-decoration: none;
+} 
+
+
+.titulo span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  background-color:#4ee898;
+  text-decoration: none;
+}
+.titulo svg {
+  max-width: 20px;
+  width: 100%;
+  height: auto;
+  max-height: 18px;
+  fill: white;
+}
+.titulo:before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+.titulo:hover svg {
+  -webkit-animation: moveArrow 750ms;
+          animation: moveArrow 750ms;
+}
+
+@-webkit-keyframes moveArrow {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  49% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  50% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes moveArrow {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  49% {
+    -webkit-transform: translateX(50px);
+            transform: translateX(50px);
+  }
+  50% {
+    -webkit-transform: translateX(-50px);
+            transform: translateX(-50px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
 }
 
 /*PESTAÑA 4*/
@@ -1658,10 +2070,7 @@ top: 5px;
 #imagen20{
   margin: -20px  -95px;
 }
-a {
-  text-decoration: none;
-  font-weight: bold;
-}
+
 
 #note { 
   display:block;
@@ -1764,17 +2173,18 @@ color:#17202A;
 
 }
 
-.botonPestaña4{
+.botonPestaña4 {
   width: 850px;
 height: 360px;
 top: -445px;
+
 }
 
 .pop-up-button {
   border:none;
   height:40px;
   width:40px;
-  font-family:'Open Sans';
+  font-family:'Open Sans', sans-serif;
   font-size:15px;
   background-color: #FFC145;
   cursor: pointer;
@@ -1782,12 +2192,17 @@ top: -445px;
  border-radius: 80%;
  margin: 150px 765px;
 
+}
+
+#botonEj span {
+  font-style: normal;
+  background: none;
+  color: #000000;
+  margin: 0px 2px;
+  font-size: 16px;
 
 }
-.pop-up-button p{
-font-style: normal;
 
-}
 .pop-up-button:hover{
   background:#dfdfdf;
 }
@@ -1812,40 +2227,31 @@ z-index: 1;
 }
 
 .closeP4 {
-left: 863px;
+left: 385px;
 width: 985px;
 height: 75px;
 z-index: 1;
-top: -20px;
-}
+top: 15px;
 
-#cerrar span{
-  background: red;
-  margin: 20px auto;
-  font-style: normal;
 }
-
-.botonPestaña4 p{
+.botonPestaña4 p {
   font-style: normal;
   font-weight: bold;
   text-align: center;
+  font-family:'Open Sans', sans-serif;
 }
 
 .botonPestaña4 span {
   border-radius:0 0 30px 30px;
   margin-left:90%;
+  background:red;
   color:#fff;
   font-size:20px;
   height:10px;
   padding:0 5px;
   cursor:pointer;
-  margin:195px auto;
+  margin:195px 20px;
 
-
-}
-
-#botonEj span{
-  color:#000000;
 }
 
 .pop-up-container{
@@ -1955,11 +2361,11 @@ margin: 60px 17px;
 }
 
 #muñecaAmarilla{
-  margin: 80px -420px;
+	margin: 80px -420px;
 }
 
 #muñecaAzul{
-  margin: 110px -450px;
+	margin: 110px -450px;
 }
 
 #ejemRacketP4{
@@ -2090,27 +2496,27 @@ text-align: justify all;
 }
 
 #mercury{
-  margin: -10px -480px;
+	margin: -10px -480px;
 
 }
 
 #mercury2{
-  margin: -10px -480px;
+	margin: -10px -480px;
 
 }
 
 #mercury3{
-  margin: -10px -480px;
+	margin: -10px -480px;
 
 }
 
 .boxes4 {
-  margin:5px 10px;
-  width: 830px;
+  margin:5px 28px;
+  width:800px;
   height:100px;
   background:-webkit-linear-gradient(left, #a3e4d7 0%,#ffffff 42%,#ffffff 52%,#e2e1e0 100%);
-  font-size: 15px;
-  font-family: 'Sansita';
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
   color: #000000;
   text-align: justify all;
   padding: 10px 10px;
@@ -2207,432 +2613,11 @@ font-size:18px;
     font-weight: 300;
 }
 
-/* PESTAÑA 5 */
-
-.tabbed-content {
-  position: relative;
-  top: -383px;
-  overflow: hidden;
-  font-family: arial, 'sans-serif';
-  color: #525252;
-  left: 18px; 
-}
-
-.tabss {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  float: left;
-  line-height: normal;
-}
-
-.tab-link {
-  text-transform: uppercase;
-  font-size: 0.9em;
-  color: #fff;
-  display: block;
-  padding: 8px 14px;
-  margin-bottom: 10px;
-  background: #ff9933;
-  cursor: pointer;
-  border-radius: 10px 0 0 10px;
-  font-weight: bold;
-}
-.tab-link.current {
-  background: #ffcc00;
-  color: #5B5B5B;
-
-}
-
-.tabs-wrapper {
-  float: left;
-}
-
-.tab-content {
-  display: none;
-  border: 4px solid #ffcc00;
-  padding: 20px;
-  margin: 0;
-  float: left;
-  border-radius: 0 10px 10px 10px;
-  min-height: 231px;
-  width: 100%;
-  box-sizing: border-box;
-  position: relative;
-  -moz-box-sizing: border-box;
-}
-.tab-content.current {
-  display: inherit;
-  width: 760px;
-  height: 380px;
-  background: linear-gradient(to bottom, #ffffff 0%, #ffff99 100%);
-}
-.tab-content *:first-child {
-  margin-top: 0;
-}
-
-@media only screen and (max-width: 650px) {
-  .tabss {
-    width: 100%;
-    float: none;
-  }
-
-  .tab-link {
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 0;
-    border-radius: 10px 10px 0 0;
-  }
-
-  .tabs-wrapper {
-    width: 100%;
-  }
-
-  .tab-content {
-    min-height: 0;
-  }
-}
-
-#estructura {
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 1;
-  color:#000000;
-  position: absolute;
-  left: -5px;
-  right: 300px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  height: 850px;
-  margin: 20px;
-
-}
- #estructura span {
-  font-style: normal;
-  font-weight: bold;
-  margin: 45px 540px; 
- }
-
- #indicacion2 span {
-  font-style: italic;
-  font-weight: bold;
-  margin: -70px -370px; 
-  color: #ff6600;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17px;
-  left: 385px;
- }
-
-#esEjemplo1 span {
-  font-style: normal;
-  margin: 8px 40px; 
-   text-align: justify;
-  letter-spacing: 1px;
-  line-height: 1;
-  color:#000000;
-  position: absolute;
-  left: -45px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  width: 750px;
- }
-
-
-#esEjemplo2 span {
-  font-style: normal;
-  margin: 8px 40px; 
-   text-align: justify;
-  letter-spacing: 1px;
-  line-height: 1;
-  color:#000000;
-  position: absolute;
-  left: -59px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  width: 720px;
- }
-
-#secuencia span {
-  font-style: normal;
-  margin: 75px 40px; 
-  letter-spacing: 1px;
-  line-height: 1;
-  color:#000000;
-  position: absolute;
-  left: 75px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  width: 410px;
-  text-align: center;
-
- }
-
- #secuencia1 span {
-  font-style: normal;
-  margin: 75px 40px; 
-  letter-spacing: 1px;
-  line-height: 1;
-  color:#000000;
-  position: absolute;
-  left: 75px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  width: 410px;
-  border: 0.4rem solid #414141;
-  border-radius: 0.7rem;
-  text-align: center;
-  box-shadow: 1px 1px orange,
-    2px 2px gold,
-    3px 3px orange,
-    4px 4px gold,
-    5px 5px orange,
-    6px 6px gold,
-    7px 7px orange,
-    8px 8px gold;
-  font-weight: bold;
-  background: white;
- }
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-::-moz-selection {
-  background: #C6FF91;
-  text-shadow: none;
-}
-
-::selection {
-  background: #C6FF91;
-  text-shadow: none;
-}
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-.clearfix {
-  *zoom: 1;
-  top: 25px;
-}
-
-.wrapper {
-  margin: 25px auto 0 auto;
-}
-
-/* Note styles */
-.note-wrap {
-  width: 200px;
-  min-height: 210px;
-  padding: 5px;
-  margin: 25px 22px 43px 22px;
-  position: relative;
-  font-size: 19px;
-  display: inline-block;
-  font-family: Sansita;
-  color: #000000;
-  background: #F7E999;
-  line-height: 1;
-  text-align: center;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-}
-.note-wrap:before {
-  display: block;
-  content: "";
-  background: rgba(227, 200, 114, 0.4);
-  width: 130px;
-  height: 28px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 6px/18px 0;
-  position: absolute;
-  top: -13px;
-  left: 50px;
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
-  transform: rotate(-2deg);
-}
-
-.note-wrap p {
-  line-height: 1.1;
-  text-align: center;
-}
-
-.note-wrap a {
-  color: #6b824f;
-  text-decoration: none;
-  font-size: 20px;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
-.note-wrap a:hover {
-  color: #D83A25;
-}
-
-.note-yellow {
-  background: #F7E999;
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
-  transform: rotate(2deg);
-}
-
-.note-blue {
-  background: #b9dcf4;
-  -webkit-transform: rotate(-2deg);
-  -moz-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg);
-  -ms-transform: rotate(-2deg);
-  transform: rotate(-2deg);
-  margin-top: 40px;
-  font-style: normal;
-}
-
-.note-pink {
-  background: #FFBDA3;
-  -webkit-transform: rotate(1deg);
-  -moz-transform: rotate(1deg);
-  -o-transform: rotate(1deg);
-  -ms-transform: rotate(1deg);
-  transform: rotate(1deg);
-  font-style: normal;
-}
-
-.note-green {
-  background: #CAF4B9;
-  -webkit-transform: rotate(-1deg);
-  -moz-transform: rotate(-1deg);
-  -o-transform: rotate(-1deg);
-  -ms-transform: rotate(-1deg);
-  transform: rotate(-1deg);
-}
-
-
-/* SUBTITULO */
-.titulo {
-  position: relative;
-  display: inline-flex;
-  text-decoration: none;
-  color: #000000;
-  background-color: #4ee898;
-  padding-left: 1rem;
-  overflow: hidden;
-  z-index: 1;
-  align-items: center;
-  box-shadow: 0px 3px 4px -4px rgba(0, 0, 0, 0.75);
-  margin: 170px -5px;
-  font-weight: bold;
-  font-family: 'Open Sans';
-  font-size: 18px;
-  height: 28px;
-  border-radius: 5px 5px 5px 5px;
-}
-.titulo::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: 0 50%;
-          transform-origin: 0 50%;
-  width: 100%;
-  height: 100%;
-  background-color: #4ee898;
-  z-index: -1;
-  transition: -webkit-transform 750ms;
-  transition: transform 750ms;
-  transition: transform 750ms, -webkit-transform 750ms;
-  
-}
-
-a.titulo:link {
-text-decoration: none;
-} 
-
-
-.titulo span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 1rem;
-  padding: 1rem;
-  overflow: hidden;
-  background-color:#4ee898;
-  text-decoration: none;
-}
-.titulo svg {
-  max-width: 20px;
-  width: 100%;
-  height: auto;
-  max-height: 18px;
-  fill: white;
-}
-.titulo:before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-}
-.titulo:hover svg {
-  -webkit-animation: moveArrow 750ms;
-          animation: moveArrow 750ms;
-}
-
-@-webkit-keyframes moveArrow {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  49% {
-    -webkit-transform: translateX(50px);
-            transform: translateX(50px);
-  }
-  50% {
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
-
-@keyframes moveArrow {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-  49% {
-    -webkit-transform: translateX(50px);
-            transform: translateX(50px);
-  }
-  50% {
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
-  }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  }
-}
 /* PESTAÑA 6*/
 
 #indicacion3 span {
   font-style: italic;
-  font-weight: bold;
-  margin: -70px -30px; 
+  margin: -70px -8px; 
   color: #ff6600;
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
@@ -2652,7 +2637,7 @@ text-decoration: none;
  -moz-box-shadow: 0 0 10px #1a1a1a;
   -webkit-box-shadow: 0 0 10px #1a1a1a;
   box-shadow: 0 0 10px #1a1a1a;
-  top: 45px;
+  top: 20px;
   height: 385px;
 }
 /*
@@ -2671,7 +2656,7 @@ text-decoration: none;
   position: relative;
   top: 5px;
   color: #000000;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
 }
 
@@ -2823,15 +2808,7 @@ text-decoration: none;
 /* Front side */
 .cover-front{
   box-shadow: black 2px 3px 3px;
-  background: linear-gradient(
-    to left, 
-    rgba(218,5,9, 0.70) 0%,
-    rgba(218,5,9, 0.70) 50%, 
-    rgba(0,0,0, 0.85) 50%,
-    rgba(218,5,9, 0.70) 50%,
-    rgba(218,5,9, 0.70) 94%, 
-    rgba(48,14,43, 0.85) 100%),
-    url("logoRacket.png");
+  background: linear-gradient(to bottom left, #ff9999 0%, #ff0000 100%);
   border: 1px solid #666;
   width: 265px;
   height: 250px;
@@ -2841,10 +2818,15 @@ text-decoration: none;
 
 .va-child .tituloD{
   font-size: 30px;
-  margin: 20px;
+  margin: 20px 0px;
   font-weight: bold;
   color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 20px;
+}
 
+#logoR {
+  margin: -5px -540px;
 }
 
 /* Back side */
@@ -2866,20 +2848,20 @@ text-decoration: none;
   display: table;
 }
 .va-child{
-
   display: table-cell;
   vertical-align: middle;
   text-align: center;
    line-height: 1.2em;
   width: 258px;
-  left: 10px;
-   font-family: "Open Sans";
+  left: 4px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .va-child .caratula {
   color: white;
   top: 20px;
-  
+  font-family: "Open Sans", sans-serif;
+
 }
 .sites{
   background-color: rgba(0, 0, 0, 0.85);
@@ -2904,6 +2886,9 @@ text-decoration: none;
   text-align: center;
   padding: 1px 1px;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.3;
+  padding: 7px;
 }
 
 .boxes.orange {
@@ -3229,7 +3214,7 @@ text-decoration: none;
 /* DEFINICION DE CAR Y FIRST */
 #definicion1 span {
   font-style: normal;
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 
@@ -3251,7 +3236,7 @@ text-decoration: none;
 }
 
 #cTexto2 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box; 
   margin: -85px 390px;
   width:100px;
@@ -3275,7 +3260,7 @@ text-decoration: none;
 
 #ej1 {
   font-style: normal;
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   margin: 120px 28px;
 }
@@ -3325,7 +3310,7 @@ text-decoration: none;
     font-weight: bold;
     text-align: center;
     transform: translateZ(15px);
-    padding: 0px;
+    padding: 2px;
     top: -7px;
     height: 24px;
 }
@@ -3337,7 +3322,7 @@ text-decoration: none;
 /* DEFINICION CDR  Y REST */
 #definicion2 span {
   font-style: normal;
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 
@@ -3470,11 +3455,13 @@ text-decoration: none;
   margin-left: 65px;
 margin-right: 70px;
 margin-top: 10px;
+font-family: "Open Sans", sans-serif;
 }
 #texto2 {
   margin-left: 65px;
 margin-right: 70px;
 margin-top: 10px;
+font-family: "Open Sans", sans-serif;
 }
 
 .slides#b3 {
@@ -3489,7 +3476,7 @@ margin-top: 10px;
   bottom: 0px;
   font-size: 14pt;
   top: 182px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   color: #000000;
   font-size: 16px;
@@ -3570,7 +3557,7 @@ margin-top: 10px;
   padding: 5px;
   margin: 65px auto;
   color: #000000;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   text-align: center;
   box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.5);
@@ -3608,7 +3595,7 @@ margin-top: 10px;
 
 #ej2 {
   
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   margin: 150px 28px;
   text-align: justify;
@@ -3703,6 +3690,7 @@ a.indicacion3 font {
   font-size: 1.3em;
   top: -8px;
   left: 27px;
+  font-weight: bold;
 }
 a.indicacion3:hover {
   -webkit-transform: translateZ(0) translateX(0.5em);
@@ -3781,7 +3769,7 @@ margin: 148px -150px;
     margin: 70px 225px;
     padding: 1px;
     float: left;
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
     text-align: center;
     background: white;
     font-size: 19px;
@@ -3791,7 +3779,7 @@ margin: 148px -150px;
 
 
 #ej3 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   margin: 150px 28px;
   text-align: justify;
@@ -3896,7 +3884,7 @@ margin: 148px -150px;
      margin: 43px 245px;
     padding: 5px; 
     float: left;
-    font-family: 'Open Sans';
+    font-family: "Open Sans", sans-serif;
      text-align: center;
     background: white;
    font-size: 19px;
@@ -3905,7 +3893,7 @@ margin: 148px -150px;
 }
 
 #ej4 {
-  font-family: 'Open Sans';
+ font-family: "Open Sans", sans-serif;
 font-size: 18px;
 margin: 118px 28px;
 text-align: justify;
@@ -3926,10 +3914,10 @@ width: 670px;
 #fondo3 {
    width: 660px;
   height: 30px;
-  margin: 8px 5px;
+  margin: 12px 5px;
   padding: 0px;
   float: left;
-  font-family: 'Open Sans';
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   background: white;
   font-size: 16px;
@@ -4044,7 +4032,7 @@ height: 25px;
 margin: 61px 185px;
 padding: 0px;
 float: left;
-font-family: 'Open Sans';
+font-family: "Open Sans", sans-serif;
 text-align: center;
 background: white;
 font-size: 17px;
@@ -4064,17 +4052,17 @@ height: 25px;
 margin: 7px 10px;
 padding: 1px;
 float: left;
-font-family: 'Open Sans';
+font-family: "Open Sans", sans-serif;
 text-align: center;
 background: white;
-font-size: 16px;
+font-size: 15px;
 font-weight: bold;
 color: #000000;
 }
 
 /* OTRA FECHA*/
 .fc {
-  margin: 230px -300px;
+  margin: 220px -310px;
   animation: arrowLoop .75s 3s ease alternate infinite;
 }
 
@@ -4135,7 +4123,7 @@ height: 280px;
 margin: 27px 10px;
 padding: 13px;
 float: left;
-font-family: 'Open Sans';
+font-family: "Open Sans", sans-serif;
 text-align: justify;
 background: white;
 font-size: 16px;
@@ -4175,7 +4163,7 @@ padding: 13px;
 float: left;
 text-align: center;
 background: white;
-font-family: 'Open Sans';
+font-family: "Open Sans", sans-serif;
 text-align: justify;
 background: white;
 font-size: 16px;
@@ -4213,7 +4201,7 @@ padding: 13px;
 float: left;
 text-align: center;
 background: white;
-font-family: 'Open Sans';
+font-family: "Open Sans", sans-serif;
 text-align: justify;
 background: white;
 font-size: 16px;
@@ -4249,6 +4237,9 @@ margin: 110px -545px;
     transform: rotate(360deg);
   }
   }
+
+/* PESTAÑA 7 */
+
 /* PESTAÑA 7 */
 
 .conP7{
@@ -4501,9 +4492,9 @@ line-height:130%;
 /*PESTANA 8 - CARRUSEL*/
 
 .containerC {
-  width: 907px;
-  margin-top: 25px;
-  margin-left: 3px;
+width: 907px;
+margin-top: 25px;
+margin-left: 3px;
 }
 
 .carousels-item > div {
@@ -4532,9 +4523,9 @@ line-height:130%;
   position: relative;
   top: -238px;
   color: #000000;
-  font-family: 'Open Sans';
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   height: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .item-3 {
@@ -4549,7 +4540,7 @@ line-height:130%;
   position: relative;
   top: -238px;
   color: #000000;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   height: 0px;
 }
@@ -4567,7 +4558,7 @@ line-height:130%;
   position: relative;
   top: -238px;
   color: #000000;
-  font-family: 'Open Sans';
+   font-family: 'Open Sans', sans-serif;
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   height: 0px;
 }
@@ -4584,7 +4575,7 @@ line-height:130%;
   position: relative;
   top: -238px;
   color: #000000;
-  font-family: 'Open Sans';
+   font-family: 'Open Sans', sans-serif;
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   height: 0px;
 }
@@ -4763,9 +4754,9 @@ line-height:130%;
   font: 16px Source Sans Pro;
   margin: 0px;
   color: #000000;
-  font-family: 'Open Sans';
   text-shadow: 0 0 0.2em #59c0af, 0 0 0.2em #59c0af;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .item1s p, .item2 p {
@@ -4795,7 +4786,7 @@ line-height:130%;
   border: 3px solid #59c0af;
   border-radius: 100px;
   float: left;
-  margin-top: -43px;
+  margin-top: -38px;
   position: relative;
   opacity: 0.3;
   margin-left: 310px;
@@ -4890,7 +4881,7 @@ line-height:130%;
   color: #969696;
   margin: -12px;
   font-size: 16px;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.1;
 }
 
@@ -4911,13 +4902,14 @@ line-height:130%;
   line-height: 1.1;
   margin-top: -17px;
   font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* PESTAÑA 8 - STEP 3 */
 
 #ej1Factorial {
   font-style: normal;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin: 25px 55px;
   text-align: justify;
@@ -4958,7 +4950,7 @@ line-height:130%;
 
 #Awesome .circles {
   box-shadow: 0 1px 0px rgba(0,0,0,.15);
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1em;
   text-align: center;
   color: #000000;
@@ -4968,7 +4960,7 @@ line-height:130%;
 
 .reveal {
    box-shadow: 0 1px 0px rgba(0,0,0,.15);
-  font-family: 'helvetica neue', arial;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1em;
   text-align: center;
   color: #000000;
@@ -5067,13 +5059,13 @@ line-height:130%;
   line-height: 1;
   margin-top: -11px;
   text-align: center;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #subt1 {
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   font-size: 18px;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   margin: 60px 190px;
   font-weight: bold;
 }
@@ -5081,6 +5073,7 @@ line-height:130%;
 #subt1 span {
   font-style: normal;
   margin-left: -90px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #subt2 {
@@ -5095,6 +5088,7 @@ line-height:130%;
 #subt2 span {
   font-style: normal;
   margin-left: -70px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* CAJAS DE LAS SOLUCIONES */
@@ -5103,12 +5097,13 @@ line-height:130%;
   flex-wrap: wrap;
   margin: -52px 62px;
   width: 230px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 .boxA {
   margin: 16px;
   border: 1px solid #ccc;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   color: #000000;
@@ -5139,12 +5134,12 @@ line-height:130%;
   flex-wrap: wrap;
   width: 460px;
   margin: -77px 304px;
+
 }
 
 .boxB {
   margin: 16px;
   border: 1px solid #ccc;
-  font-family: Open Sans;
   font-weight: 100;
   letter-spacing: 2px;
   color: #000000;
@@ -5158,7 +5153,7 @@ line-height:130%;
   font-size: 13px;
   background-color: white;
   font-weight: bold;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .multiples {
@@ -5228,14 +5223,15 @@ line-height:130%;
 #subt3 {
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   font-size: 18px;
-  font-family: Open Sans;
-  margin: 245px 170px;
+  font-family: "Open Sans", sans-serif;
+  margin: 245px 160px;
   font-weight: bold;
 }
 
 #subt3 span {
   font-style: normal;
   margin-left: -90px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #subt4 {
@@ -5250,6 +5246,7 @@ line-height:130%;
 #subt4 span {
   font-style: normal;
   margin-left: -70px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*IMAGENES*/
@@ -5292,7 +5289,7 @@ line-height:130%;
 /* PESTAÑA 8 - STEP 4*/
 #ej2Inventario {
   font-style: normal;
-  font-family: 'Open Sans';
+   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin: 25px 55px;
   text-align: justify;
@@ -5352,13 +5349,14 @@ line-height:130%;
   font-weight: bold;
   font-size: 13px;
   margin-left: -15px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 #subt5 {
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   font-size: 18px;
-  font-family: Open Sans;
-  margin: 70px 450px;
+   font-family: 'Open Sans', sans-serif;
+  margin: 70px 420px;
   font-weight: bold;
   width: 400px;
 }
@@ -5370,6 +5368,7 @@ line-height:130%;
 
 #linea1 {
   margin-left: -20px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 #subt6 {
@@ -5383,12 +5382,13 @@ line-height:130%;
 #subt6 span {
   font-style: normal;
   margin-left: -85px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 #subt7 {
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   font-size: 18px;
-  font-family: Open Sans;
+   font-family: 'Open Sans', sans-serif;
   margin: 245px 465px;
   font-weight: bold;
   width: 400px;
@@ -5437,7 +5437,7 @@ line-height:130%;
 
 #ej3Juguetes {
   font-style: normal;
-  font-family: 'Open Sans';
+  f font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   margin: 25px 55px;
   text-align: justify;
@@ -5468,9 +5468,9 @@ line-height:130%;
   width: 755px;
   height: 75px;
   margin: 77px 74px;
-  padding: 25px;
+  padding: 25px 10px;
   float: left;
-  font-family: 'Open Sans';
+    font: 'Open Sans', sans-serif;
   text-align: left;
   background: white;
   font-size: 13px;
@@ -5488,7 +5488,7 @@ line-height:130%;
 
 
 .midel-titles {
-  font: 13px Open Sans;
+  font: 13px 'Open Sans', sans-serif;
   font-weight: bold;
   background-image: linear-gradient(#c9300a, #c9300a),
                     linear-gradient(#c9300a, #c9300a),
@@ -5505,14 +5505,14 @@ line-height:130%;
   padding: 7px 7px;
   margin: 8px;
   margin-left: 225px;
-  width: 497px;
-  margin-top: -35px;
+  width: 515px;
+  margin-top: -32px;
 }
 
 #subt8 {
   text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
   font-size: 18px;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   margin: 245px 170px;
   font-weight: bold;
 }
@@ -5599,17 +5599,17 @@ line-height:130%;
 }
 
 #ubicacion {
- top: -8px;
+top: -8px;
 }
 
  .item-1 h6 {
   font-style: italic;
-font-weight: bold;
+font-weight: normal;
 color: #ff6600;
 font-family: 'Open Sans', sans-serif;
 font-size: 17px;
 margin: -254px;
-margin-left: -660px;
+margin-left: -760px;
 }
 
 #loader{
