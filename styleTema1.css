@@ -1989,29 +1989,31 @@ color: #17202A;
   width: auto;
   height: 2px;
   transition: 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
 }
 .tabsP4-header ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  font-size: 13px;
+  font-size: 11px;
   width: 900px;
+  font-family: 'Open Sans', sans-serif;
 }
 .tabsP4-header li {
   transition: 0.3s ease;
 }
 .tabsP4-header a {
   z-index: 1;
-display: block;
-box-sizing: border-box;
-padding: 15px 20px;
-color: #FFFFFF;
-font-weight: 500;
-text-decoration: none;
-text-transform: uppercase;
-font-size: 14px;
-top: -25px;
-font-weight: bold;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  top: -25px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .tabsP4-content {
