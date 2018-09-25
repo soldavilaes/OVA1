@@ -1,32 +1,21 @@
-/*var bodyW = $(window).height();
+ /*--------------------------
+* TEMA 1 - PESTAÑAS
+---------------------------*/
 
-$('body').height(bodyW);
 
-$(window).resize(function() {
-  var bodyW = $(window).height();
-$('body').height(bodyM);  
-});*/
+// show first content by default
+$('#tabs-nav li:last-child').addClass('active');
+$('.contentt').hide();
+$('.contentt:first').show();
 
- $('.tabs a').click(function(){
-  $this = $(this);
- 
-
-  $('.panel').hide();
-  $('.tabs').removeClass('active').addClass('inactive');
-  $this.addClass('active').blur();
+// click function
+$('#tabs-nav li').click(function(){
+  $('#tabs-nav li').removeClass('active');
+  $(this).addClass('active');
+  $('.contentt').hide();
   
-  var panelContainerColor = $this.css('background-color');
-
-  $('.panelContainer').css({backgroundColor: panelContainerColor});
-  
-  var panel = $this.attr('href');
-  
-  $(panel).fadeIn(350);
-  
+  var activeTab = $(this).find('a').attr('href');
+  $(activeTab).fadeIn();
   return false;
- 
-});//end click
-
-$('.tabs li:third a').click();
-
-
+  
+});
