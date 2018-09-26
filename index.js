@@ -67,6 +67,18 @@ $(document).ready(function(e){
     $('#content').load('tema1.html')
   });
 });
+$(document).ready(function(e){
+  $('#itemIntro').on('click', function(){
+    $('#content').load('intro.html')
+  });
+});
+
+/* SELECCIONAR ITEM*/
+$('#menu-left li').on('click', function(){
+    $('li').removeClass('activo');
+    $(this).addClass('activo');
+});
+
 
 
 $(document).ready(function() {
