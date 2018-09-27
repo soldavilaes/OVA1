@@ -491,6 +491,10 @@ header.active, .intro.active, #menu-left.active, footer.active {
   line-height: 22px;
 }
 
+.content a {
+  text-decoration: none;
+}
+
 /*-------------------------------*/
 /* CSS @media screen responsive
 /*-------------------------------*/
