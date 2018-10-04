@@ -970,7 +970,7 @@ body {
 
 .wrapper {
   position: absolute;
-  top: 90%;
+  top: 93%;
   left: 90%;
   transform: translate(-50%, -50%);
   width: 180px;
@@ -995,6 +995,9 @@ body {
   transition: all .2s;
   width: 150px;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  height: 40px;
+  padding: 5px;
 }
 
 .btn:hover {
