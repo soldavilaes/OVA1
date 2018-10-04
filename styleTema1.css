@@ -1,6 +1,5 @@
 html, body {
-  width:100%;
-  height: 100%;
+  
   color: #555;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -433,7 +432,7 @@ h1.panelContent img {
 
 #imagen18 {
   margin: 179px  -161px;
- animation: pulse 1.2s infinite cubic-bezier(0.99, 0.66, 1, 2);
+ animation: pulse 4s infinite cubic-bezier(0.99, 0.66, 1, 2);
 }
 #imagen21 {
   margin: -25px  -555px;
@@ -443,13 +442,13 @@ h1.panelContent img {
    height: 130px;
    width: 200px;
   margin: 213px  -550px;
-  animation: float 1s infinite ease-in-out alternate;
+  animation: float 2.5s infinite ease-in-out alternate;
 }
 #imagen25 {
     height: 130px;
    width: 200px;
   margin: 213px  -320px;
-   animation: float 1s infinite ease-in-out alternate;
+   animation: float 2.5s infinite ease-in-out alternate;
 }
 
 .quote {
@@ -3050,13 +3049,13 @@ font-family: 'Open Sans', sans-serif;
 }
 .hoja:after {
   box-shadow: inset 0 7.5px 0 rgba(250, 250, 0, 0.6), inset 7.5px 0 0 rgba(250, 200, 0, 0.6), inset 0 -7.5px 0 rgba(250, 150, 0, 0.6), inset -7.5px 0 0 rgba(250, 100, 0, 0.6);
-  -webkit-animation: rotar 2s -0.5s linear infinite;
-          animation: rotar 2s -0.5s linear infinite;
+  -webkit-animation: rotar 6s -0.5s linear infinite;
+          animation: rotar 6s -0.5s linear infinite;
 }
 .hoja:before {
   box-shadow: inset 0 7.5px 0 rgba(0, 250, 250, 0.6), inset 7.5px 0 0 rgba(0, 200, 200, 0.6), inset 0 -7.5px 0 rgba(0, 150, 200, 0.6), inset -7.5px 0 0 rgba(0, 200, 250, 0.6);
-  -webkit-animation: rotarIz 2s -0.5s linear infinite;
-          animation: rotarIz 2s -0.5s linear infinite;
+  -webkit-animation: rotarIz 6s -0.5s linear infinite;
+          animation: rotarIz 6s -0.5s linear infinite;
 }
 
 #hoja2 {
@@ -3548,7 +3547,7 @@ font-family: "Open Sans", sans-serif;
    width: 180px;
   margin-top: -23px;
   margin-left: -400px;
-  animation: ascendente 1s infinite ease-in-out alternate;
+  animation: ascendente 2s infinite ease-in-out alternate;
 }
 
 #imagen27 {
@@ -3556,7 +3555,7 @@ font-family: "Open Sans", sans-serif;
    width: 180px;
   margin-top: -23px;
   margin-left: -195px;
-  animation: ascendente 1s infinite ease-in-out alternate;
+  animation: ascendente 2s infinite ease-in-out alternate;
 }
 
 #imagen28 {
@@ -3564,7 +3563,7 @@ font-family: "Open Sans", sans-serif;
    width: 180px;
   margin-top: -28px;
   margin-left: -305px;
-  animation: ascendente 1s infinite ease-in-out alternate;
+  animation: ascendente 2s infinite ease-in-out alternate;
 }
 
 #imagen29 {
@@ -3610,8 +3609,8 @@ font-family: "Open Sans", sans-serif;
   text-align: center;
   box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
-  -webkit-animation: shadow-anim 2s infinite;
-          animation: shadow-anim 2s infinite;
+  -webkit-animation: shadow-anim 4s infinite;
+          animation: shadow-anim 4s infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   font-weight: bold;
@@ -3658,7 +3657,7 @@ font-family: "Open Sans", sans-serif;
   height: 190px;
 width: 230px;
 margin: 148px -150px;
- animation-duration: 2.5s;
+ animation-duration: 8s;
   animation-name: bounce;
   animation-iteration-count: infinite;
 }
@@ -3802,7 +3801,7 @@ a.indicacion3:hover svg g circle {
   height: 190px;
 width: 230px;
 margin: 148px -150px;
-  animation: ascendente 0.5s infinite ease-in-out alternate;
+  animation: ascendente 2s infinite ease-in-out alternate;
 }
 
 .marco {
@@ -3859,7 +3858,7 @@ margin: 148px -150px;
   width: 15px;
   border-radius: 15px;
   background-color: #FF0000;
-  animation: animate linear 2s infinite;
+  animation: animate linear 10s infinite;
 }
 .circle:nth-child(1) {
   animation-delay: 0.9s;
@@ -3977,7 +3976,7 @@ width: 670px;
 height: 135px;
 width: 195px;
 margin: 212px -190px;
- animation: wiggle 3s linear infinite;
+ animation: wiggle 10s linear infinite;
 }
 
 @keyframes wiggle {
@@ -4035,7 +4034,7 @@ margin: 212px -190px;
   border-top: none;
   border-right: 2px #FF4000 solid;
   border-bottom: 2px #FF4000 solid;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-name: flechita;
 }
@@ -4111,7 +4110,7 @@ color: #000000;
 /* OTRA FECHA*/
 .fc {
   margin: 220px -310px;
-  animation: arrowLoop .75s 3s ease alternate infinite;
+  animation: arrowLoop 4s 3s ease alternate infinite;
 }
 
 @keyframes arrowLoop {
@@ -4150,7 +4149,7 @@ font-weight: bold;
 height: 135px;
 width: 195px;
 margin: 212px -190px;
-animation: float 1s infinite ease-in-out alternate;
+animation: float 2.5s infinite ease-in-out alternate;
 }
 
 /* PESTAÑA 6 - STEP 8*/
@@ -4190,7 +4189,7 @@ color: #000000;
 height: 130px;
 width: 178px;
 margin: 110px -545px;
- animation: wiggle 3s linear infinite;
+ animation: wiggle 10s linear infinite;
 }
 
 .i21 {
@@ -4228,7 +4227,7 @@ color: #000000;
 height: 130px;
 width: 178px;
 margin: 110px -545px;
- animation: wiggle 3s linear infinite;
+ animation: wiggle 10s linear infinite;
 }
 
 .i22 {
@@ -4267,7 +4266,7 @@ color: #000000;
 height: 130px;
 width: 178px;
 margin: 110px -545px;
- animation: wiggle 3s linear infinite;
+ animation: wiggle 10s linear infinite;
 }
 
  @keyframes spin {
@@ -4640,7 +4639,7 @@ height: 25px;
   margin: 125px 60px;
   height: 170px;
   width: 250px;
-  -webkit-animation: seesaw 1s infinite;
+  -webkit-animation: seesaw 3s infinite;
 }
 .cajaTextoP4 {
     position: absolute;
@@ -5451,7 +5450,7 @@ margin-left: 3px;
   margin: 205px -380px;
   transition:all 0.3s linear;
   animation-iteration-count: infinite;
-  animation-duration: 3.75s;
+  animation-duration: 10s;
   animation-name: jump;
 }
 
@@ -5461,7 +5460,7 @@ margin-left: 3px;
   margin: 205px 10px;
   transition:all 0.3s linear;
   animation-iteration-count: infinite;
-  animation-duration: 3.75s;
+  animation-duration: 10s;
   animation-name: jump;
 }
 
@@ -5601,7 +5600,7 @@ margin-left: 3px;
   margin: 205px -350px;
   transition:all 0.3s linear;
   animation-iteration-count: infinite;
-  animation-duration: 0.9s;
+  animation-duration: 3s;
   animation-name: shrink;
 }
 
@@ -5611,7 +5610,7 @@ margin-left: 3px;
   margin: 205px 85px;
   transition:all 0.3s linear;
   animation-iteration-count: infinite;
-  animation-duration: 0.9s;
+  animation-duration: 3s;
   animation-name: shrink;
 }
 
@@ -5723,7 +5722,7 @@ margin-left: 3px;
   margin: 160px -20px;
   transition:all 0.3s linear;
   animation-iteration-count: infinite;
-  animation-duration: 1s;
+  animation-duration: 4s;
   animation-name: shaker;
 }
 
