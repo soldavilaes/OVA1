@@ -2040,6 +2040,7 @@ color: #17202A;
   height: 1px;
   box-shadow: 0 0 20px 10px #FFFFFF;
   height: 550px;
+  font-family: 
 }
 .tabsP4-content .tabP4 {
   display: none;
@@ -2084,7 +2085,7 @@ top: 5px;
   width:340px;
   height:240px;
   position:relative;
-  margin:40px 0 0 20px;
+  margin:-15px 0 0 40px;
 }
 
 .lines {
@@ -2284,6 +2285,8 @@ text-align: justify;
 color: #17202A;
 z-index: 1;
 font-size:18px;
+font-family: 'Open Sans', sans-serif;
+line-height: 20px;
 }
 
 .ejemP4{
@@ -2345,10 +2348,10 @@ font-size:18px;
   -webkit-animation: purple 1s infinite;
   -moz-animation: purple 1s infinite;
   -o-animation: purple 1s infinite;
-  animation: purple 1s infinite; }
+  animation: purple 4s infinite; }
 
 .recuadro3 {
-  top: -55px;
+  top: -65px;
   text-align: center;
   padding: 4px 10px;
   text-decoration: none;
@@ -2362,6 +2365,8 @@ font-size:18px;
   margin: 75px 10px;
   border-style: outset; border-width: 1px;
   font-size: 20px;
+  left: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 #muñecaRosa{
 margin: 60px 17px;
@@ -2396,6 +2401,7 @@ z-index: 1;
 font-size:15px;
 left: -21px;
 text-align: justify all;
+font-family: 'Open Sans', sans-serif;
 }
 
 .cards {
@@ -2518,11 +2524,11 @@ text-align: justify all;
 }
 
 .boxes4 {
-  margin:5px 28px;
+  margin:-16px 28px;
   width:800px;
   height:100px;
   background:-webkit-linear-gradient(left, #a3e4d7 0%,#ffffff 42%,#ffffff 52%,#e2e1e0 100%);
-  font-size: 14px;
+  font-size: 17px;
   font-family: 'Open Sans', sans-serif;
   color: #000000;
   text-align: justify all;
@@ -2544,27 +2550,28 @@ text-align: justify;
 color: #17202A;
 z-index: 1;
 font-size:18px;
+font-family: 'Open Sans', sans-serif;
 }
 
 #steep5{
    height: 190px;
    width: 350px;
   margin: 130px -460px;
-  animation: float 1s infinite ease-in-out alternate;
+  animation: float 4s infinite ease-in-out alternate;
 }
 
 #step5P4{
   height: 235px;
   width: 400px;
   margin: 90px -220px;
-  animation: float 1s infinite ease-in-out alternate;
+  animation: float 4s infinite ease-in-out alternate;
 }
 
 #estep6P4{
   height: 200px;
 width: 400px;
 margin: 120px -150px;
-  animation: float 1s infinite ease-in-out alternate;
+  animation: float 4s infinite ease-in-out alternate;
 }
 
 .boxes6 {
@@ -2580,8 +2587,40 @@ text-align: justify;
 color: #17202A;
 z-index: 1;
 font-size:18px;
+font-family: 'Open Sans', sans-serif;
 }
 
+.boxess6 {
+top: -15px;
+position: relative;
+padding: 15px 20px;
+overflow: hidden;
+background: #FFFFFF;
+height: 350px;
+width: 900px;
+left: -20px;
+text-align: justify;
+color: #17202A;
+z-index: 1;
+font-size:18px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.boxesss6 {
+top: -20px;
+position: relative;
+padding: 15px 20px;
+overflow: hidden;
+background: #FFFFFF;
+height: 70px;
+width: 120px;
+left: -20px;
+text-align: justify;
+color: #17202A;
+z-index: 1;
+font-size:19px;
+font-family: 'Open Sans', sans-serif;
+}
 .cajaTextoP4 {
     position: absolute;
     width:500px;
@@ -3408,7 +3447,7 @@ font-size:18px;
   -webkit-animation: yellow 1s infinite;
   -moz-animation: yellow 1s infinite;
   -o-animation: yellow 1s infinite;
-  animation: yellow 1s infinite; }
+  animation: yellow 3s infinite; }
 
 /*SLIDER PESTAÑA 6*/
 
