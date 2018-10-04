@@ -2564,14 +2564,14 @@ font-family: 'Open Sans', sans-serif;
   height: 235px;
   width: 400px;
   margin: 90px -220px;
-  animation: float 4s infinite ease-in-out alternate;
+  animation: float 3s infinite ease-in-out alternate;
 }
 
 #estep6P4{
   height: 200px;
 width: 400px;
 margin: 120px -150px;
-  animation: float 4s infinite ease-in-out alternate;
+  animation: float 3s infinite ease-in-out alternate;
 }
 
 .boxes6 {
