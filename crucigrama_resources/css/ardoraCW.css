@@ -63,9 +63,11 @@ background:rgba(255,128,0,0.5);}
 #ardoraActCanvas{z-index: 0; position: absolute; visibility:hidden;top:0; left:5px;}
 #ardoraAct{position: relative; float: right; margin: -5px 80px;
 border-style: solid; border-width: 1px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; border-radius: 4px;
--webkit-box-shadow: 4px 4px 4px #ff753b;box-shadow: 4px 4px 4px #ffc7b0; border-color: #ff753b; 
+-webkit-box-shadow: 4px 4px 4px #ff753b;box-shadow: 4px 4px 4px #ffc7b0; border-color: #ff753b;     height: 405px;
+    top: 5px; left: -30px;
 }
-#ardoraTab{width: 100px; height:320px;position: relative; visibility: visible;padding:5px;float:left; margin: -310px 830px;}
+
+#ardoraTab{width: 100px; height:320px;position: relative; visibility: visible;padding:5px;float:left; margin: -310px 815px;}
 td{margin: 0; padding: 0; border: 1px; border-style: solid;}
 .cell{width:10px; height:35px; margin: 0; padding: 0;text-align: center;
 font-family:Verdana, Geneva, sans-serif; text-transform: uppercase;font-size:12px; color: #000000;
@@ -74,17 +76,20 @@ cursor: pointer;border-style: none;background-color:#FFFDFD}
 height: 10px;
 	width: 10px;}
 .hidetd{border:0px; border-style: none;}
-#defIma{font-size:12px; text-align: justify; z-index:1; width:250px; font-family:Verdana, Geneva, sans-serif; color: #000000;
+#defIma{margin-top: 10px; font-size:12px; text-align: justify; z-index:1; width:250px; font-family:Verdana, Geneva, sans-serif; color: #000000;
 padding: 6px; border-radius:4px; border-style: solid; border-width: 1px;
 box-shadow: inset 3px 3px 3px rgba(50, 50, 50, 0.5);
 float:right; visibility: hidden;}
-table{float: left; margin-right: 20px; margin-bottom: 20px;}
-#buttonDir{border-radius: 2px; border-style: solid; border-width: 1px; margin-bottom: 10px;
+table{margin-top: -70px; float: left; margin-right: 20px; margin-bottom: 20px;}
+#buttonDir{margin-top: 10px; border-radius: 2px; border-style: solid; border-width: 1px; margin-bottom: 10px;
 margin-left: 10px; float: right; cursor: pointer; width: 40px; height: 40px;box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.5);}
 #ardoraButtonDirCanvas{padding: 0px;}
 .titleDef{padding-top: 5px; font-weight: bold; border-width: 1px; border-bottom-style: solid;}
 #ardoraMain{border: 3px solid rgba(235,30, 0, 1); height: 467px; background: linear-gradient(to top, 
 #ffffb7 40%, #ffffff 100%);}
-
+#ardoraEnu1{ font-family:sans-serif; font-size: 15px; position: relative; padding: 5px; margin-bottom: 10px;
+text-align: justify; font-weight: bold; left: 5px; 
+left: 455px; line-height: 1.2;
+}
 
 

@@ -6,7 +6,6 @@ html, body {
   font-weight: normal;
   margin: 0 auto;
   overflow-X: hidden;
-  /*overflow-Y: auto;*/
   padding: 0;
   overflow-y:hidden;
    background: radial-gradient(#FFF176, #F57F17);
@@ -432,7 +431,7 @@ h1.panelContent img {
 
 #imagen18 {
   margin: 179px  -161px;
- animation: pulse 4s infinite cubic-bezier(0.99, 0.66, 1, 2);
+ animation: pulse 5s infinite cubic-bezier(0.99, 0.66, 1, 2);
 }
 #imagen21 {
   margin: -25px  -555px;
@@ -1125,7 +1124,7 @@ left: 170px;
     margin: 190px -420px;
    border-radius: 10px 10px 10px 10px;
    cursor: pointer;
-    -webkit-animation: pulse 1.5s infinite;
+    -webkit-animation: pulse 5s infinite;
 
 }
 
@@ -1136,7 +1135,7 @@ left: 170px;
     margin: 190px -220px;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
-    -webkit-animation: pulse 1.5s infinite;
+    -webkit-animation: pulse 5s infinite;
 }
 
  #ejemplo3 {
@@ -1146,7 +1145,7 @@ left: 170px;
     margin: 190px -20px;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
-    -webkit-animation: pulse 1.5s infinite;
+    -webkit-animation: pulse 5s infinite;
 }
 
 
@@ -2558,21 +2557,21 @@ font-family: 'Open Sans', sans-serif;
    height: 190px;
    width: 350px;
   margin: 130px -460px;
-  animation: float 4s infinite ease-in-out alternate;
+  animation: float 2s infinite ease-in-out alternate;
 }
 
 #step5P4{
   height: 235px;
   width: 400px;
   margin: 90px -220px;
-  animation: float 3s infinite ease-in-out alternate;
+  animation: float 2s infinite ease-in-out alternate;
 }
 
 #estep6P4{
   height: 200px;
 width: 400px;
 margin: 120px -150px;
-  animation: float 3s infinite ease-in-out alternate;
+  animation: float 2s infinite ease-in-out alternate;
 }
 
 .boxes6 {
@@ -3657,7 +3656,7 @@ font-family: "Open Sans", sans-serif;
   height: 190px;
 width: 230px;
 margin: 148px -150px;
- animation-duration: 8s;
+ animation-duration: 9s;
   animation-name: bounce;
   animation-iteration-count: infinite;
 }

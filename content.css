@@ -1,4 +1,3 @@
-/* eXeLearning Style Designer Compatible Style */
 html{font-size:105%}
 body{font:100%/1.5 'Open Sans',Arial,Verdana,Helvetica,sans-serif;padding:15px;margin:0;text-align:left}
 
@@ -12,8 +11,7 @@ p{margin:1em 0}
 #header,#emptyHeader,#nodeDecoration{padding:0 20px;height:auto!important;height:120px;min-height:120px;font-size:1.6em;font-weight:300;border-style:1px;border-width:1px}
 #headerContent{padding-top:70px}
 #header h1,#nodeDecoration h1{margin:-.5em 0 1em 0;font-size:1em;text-align:left}
-#nodeDecoration{margin-bottom:15px} /* Single page */
-
+#nodeDecoration{margin-bottom:15px} 
 .nodeDecoration h1{font-size:1.5em}
 
 /* iDevices */
